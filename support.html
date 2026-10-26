@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Help, testing notes and contact information for TimeCoder.">
+  <title>Support — TimeCoder</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-config.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="TimeCoder home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span>TimeCoder</span></a>
+    <nav aria-label="Main navigation"><a href="./#features">Features</a><a aria-current="page" href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <main id="main" class="support-page section-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Beta support</p>
+      <h1>Let’s get you moving.</h1>
+      <p>TimeCoder is in active development. Clear reports about what you expected, what happened and how to reproduce it are especially useful.</p>
+    </div>
+
+    <section class="support-grid" aria-label="Support options">
+      <article class="support-card accent-card">
+        <p class="card-label">Best for beta feedback</p>
+        <h2>Send feedback with TestFlight</h2>
+        <p>Open TestFlight, select TimeCoder, then choose <strong>Send Beta Feedback</strong>. You can attach a screenshot and comments, or submit feedback after taking a screenshot in the app.</p>
+        <a class="text-link" href="https://testflight.apple.com/">Open TestFlight information <span aria-hidden="true">↗</span></a>
+      </article>
+      <article class="support-card">
+        <p class="card-label">Questions and reproducible bugs</p>
+        <h2>Use the public issue tracker</h2>
+        <p>Check for an existing report or open a new one. Never attach copyrighted audio, an Eos show file or personal information.</p>
+        <a class="text-link" href="https://github.com/ColGren/timecoder-beta/issues">View support issues <span aria-hidden="true">↗</span></a>
+        <p data-email-contact hidden>Email: <a data-email-link></a></p>
+      </article>
+    </section>
+
+    <section class="requirements">
+      <div>
+        <p class="eyebrow">Before you begin</p>
+        <h2>Beta requirements</h2>
+      </div>
+      <ul>
+        <li>A Mac running macOS 27 or later</li>
+        <li>Apple’s TestFlight app and an accepted TimeCoder invitation</li>
+        <li>An unprotected local audio file for analysis</li>
+        <li>For direct export: an ETC Eos console on the same network with OSC enabled</li>
+      </ul>
+    </section>
+
+    <section class="faq">
+      <div class="section-heading compact"><p class="eyebrow">Quick answers</p><h2>Common questions</h2></div>
+      <details>
+        <summary>Why won’t my track open?</summary>
+        <p>Make sure the file is stored locally and is not protected by digital rights management. If it is in cloud storage, download it before opening it in TimeCoder.</p>
+      </details>
+      <details>
+        <summary>Why can’t TimeCoder reach Eos?</summary>
+        <p>Confirm the Mac and console are on the same network, OSC is enabled in Eos, and the host and TCP port in TimeCoder match the console. Also allow Local Network access when macOS asks.</p>
+      </details>
+      <details>
+        <summary>Will an import overwrite my show?</summary>
+        <p>TimeCoder inspects the selected Event List, blocks overlapping track ranges, preserves existing events and checks the result after import. Keep a current backup of any show file while testing beta software.</p>
+      </details>
+      <details>
+        <summary>Where are my projects stored?</summary>
+        <p>You choose the location when you save a <code>.tmcproj</code> file. TimeCoder also keeps a local recovery copy so an interrupted session can be restored.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer><div class="footer-inner"><div><a class="brand" href="./">TimeCoder</a><p>Music timing for show control.</p></div><nav aria-label="Footer navigation"><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="https://github.com/ColGren/timecoder-beta">GitHub</a></nav><p class="copyright">© <span data-current-year>2026</span> Col Grenfell</p></div></footer>
+</body>
+</html>
