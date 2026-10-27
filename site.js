@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const config = window.TIMECODER_SITE ?? {};
+  const config = window.TIMECODE_ASSISTANT_SITE ?? {};
   const isHTTPURL = (value) => {
     try {
       const url = new URL(value);

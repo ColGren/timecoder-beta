@@ -1,6 +1,6 @@
-# TimeCoder beta site
+# TimeCode Assistant beta site
 
-Static marketing, support and privacy pages for the TimeCoder macOS beta. The site has no build step, dependencies, analytics or cookies.
+Static marketing, support and privacy pages for the TimeCode Assistant macOS beta. The site has no build step, dependencies, analytics or cookies.
 
 ## Before opening the public beta
 
